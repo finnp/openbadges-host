@@ -1,0 +1,14 @@
+{
+  "uid": "badge-example#1",
+  "recipient": {
+    "type": "email",
+    "hashed": false,
+    "identity": "derfinn@gmail.com"
+  },
+  "issuedOn": "2014-07-20T13:54:16Z",
+  "badge": "http://www.finnpauls.de/openbadges-host/badge-example/class.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://www.finnpauls.de/openbadges-host/badge-example/1.json"
+  }
+}
