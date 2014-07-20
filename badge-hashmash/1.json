@@ -1,0 +1,15 @@
+{
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "VMhDkP71nqSm+BM8AjBeDQ==",
+    "identity": "sha256$a033f70348d8e93a41682bcff6a150cc1ea2833479e63cffbed88dcabe32ffb6"
+  },
+  "issuedOn": "2014-07-20T18:41:33Z",
+  "verify": {
+    "type": "hosted",
+    "url": "http://www.finnpauls.de/openbadges-host/badge-hashmash/1.json"
+  },
+  "uid": "badge-hashmash#1",
+  "badge": "http://www.finnpauls.de/openbadges-host/badge-hashmash/class.json"
+}
