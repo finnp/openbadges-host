@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A badge for your</title>
+    <script src="https://backpack.openbadges.org/issuer.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  </head>
+  <body>
+      <div class="container">
+        <h1>You received a badge!</h1>
+        <img alt="Your badge" src="" class="img-responsive">
+        <button id="backpack-add" class="btn btn-lg btn-primary">Add to your backpack</button>
+      </div>
+      <script>
+        var baseUrl = 'http://www.finnpauls.de/openbadges-host/';
+        var badgeID = window.location.hash; // e.g. badge-example/1
+        var url = baseUrl + badgeID + '.json';
+        document.querySelector('#backpack-add').onclick = function() {
+          OpenBadges.issue([url]);
+        }
+      </script>
+  </body>
+</html>
+
