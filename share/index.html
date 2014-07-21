@@ -19,7 +19,7 @@
         
         $.getJSON(url, function (data) {
           var badgeUrl = data.badge;
-          $.getJSON(badgeURL, function (badge) {
+          $.getJSON(badgeUrl, function (badge) {
             $('#badge-img').attr('src', badge.image);
           })
         });
