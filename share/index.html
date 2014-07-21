@@ -13,8 +13,9 @@
       </div>
       <script>
         var baseUrl = 'http://www.finnpauls.de/openbadges-host/';
-        var badgeID = window.location.hash; // e.g. badge-example/1
+        var badgeID = window.location.hash.slice(1); // e.g. badge-example/1
         var url = baseUrl + badgeID + '.json';
+        console.log('Badge for:' + url);
         document.querySelector('#backpack-add').onclick = function() {
           OpenBadges.issue([url]);
         }
